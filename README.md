@@ -1,7 +1,6 @@
 # Smashlet-SCLC
-Smashlet Cloudless Computing (SCLC): The Next Big Thing since Linux and the World Wide Web
+Smashlet Cloudless Computing (SCLC): The Next Big Thing since Linux and the World Wide Web (Hopefully!!)
 
-Smashlet Cloudless Computing (SCLC): The Next Big Thing since Linux and the World Wide Web
 
 Smashlet is an amalgamation of the words stack machine, shell, and servlet.
 
