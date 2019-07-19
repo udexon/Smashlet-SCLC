@@ -20,3 +20,15 @@ Such is the great length one needs to go in order to attract followers nowadays,
 
 Smashlet will usher in the era of Cloudless Computing, where cloud computing will become a thing of the past. 
 
+https://www.itpro.co.uk/hybrid-cloud/33873/hpe-head-declares-future-is-cloudless
+
+As industry "influencers" get excited about coining the next buzzwords, our definition of Cloudless Computing has its roots in Anarchism, or a gentler Taoist face in the form of 无为 Wuwei, literally Goalless. 
+
+(For a recent popular introduction to Toaist political ideologies, the frest out of the oven Chinese drama 长安十二时辰 Changan 24 Hours would be a good start, which depicts Li Bi, a historical Taoist priest, who was to not just solve the 24 hour crisis in the drama, but eventually to become a prime minister to help the great Tang dynasty recover from its biggest crisis, and laid the foundation of a new taxation system for China, in continuous use until the modern era.)
+
+More specifically, Smashlet will enable messaging using public key cryptography, a concept whose significance is poorly understood perhaps due to lack of practical implementations.
+
+The most popular implementations of public key cryptography to date are perhaps browser TLS and cryptocurrencies. However, the public keys used by these systems are managed in a centralized manner.
+
+Smashlet would allow ad-hoc generation and deployment of public keys, thus making them untraceable and truly anonymous. This will become the foundation of the true Cloudless computing.
+
