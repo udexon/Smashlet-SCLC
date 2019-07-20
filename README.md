@@ -16,6 +16,8 @@ Now we shall introduce AndServer Smashlet, a Java http Servlet framework running
 
 In short, AndServer Smashlet is a full stack (front end plus back end) solution that can be run on billions of mobile devices, with direct access to thousands of Java libraries in use for decades. 
 
+https://github.com/udexon/AndServer-Smashlet/blob/master/sample/src/main/java/com/yanzhenjie/andserver/sample/controller/TestController.java
+
 Such is the great length one needs to go in order to attract followers nowadays, compared to the early days of Linux and the World Wide Web, which I believe the Next Big Thing like these predecessors Smashlet can become.
 
 Smashlet will usher in the era of Cloudless Computing, where cloud computing will become a thing of the past. 
