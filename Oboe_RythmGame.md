@@ -27,3 +27,5 @@ Java_com_google_oboe_sample_rhythmgame_GameSurfaceView_native_1onTouchInput(JNIE
     game->tap(time_since_boot_ms);
 }
 ```
+
+https://developer.android.com/ndk/samples/sample_teapot
