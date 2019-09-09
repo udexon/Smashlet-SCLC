@@ -29,3 +29,26 @@ Java_com_google_oboe_sample_rhythmgame_GameSurfaceView_native_1onTouchInput(JNIE
 ```
 
 https://developer.android.com/ndk/samples/sample_teapot
+
+https://github.com/googlesamples/android-ndk/blob/fc2ed743f9e34e5b7dcfc06c11420f3eb886f1bf/teapots/classic-teapot/src/main/cpp/TeapotNativeActivity.cpp
+
+C++ calls Java!!
+
+```
+jmethodID methodID = jni->GetMethodID(clazz, "updateFPS", "(F)V");
+```
+
+```
+void Engine::UpdateFPS(float fFPS) {
+  JNIEnv* jni;
+  app_->activity->vm->AttachCurrentThread(&jni, NULL);
+
+  // Default class retrieval
+  jclass clazz = jni->GetObjectClass(app_->activity->clazz);
+  jmethodID methodID = jni->GetMethodID(clazz, "updateFPS", "(F)V");
+  jni->CallVoidMethod(app_->activity->clazz, methodID, fFPS);
+
+  app_->activity->vm->DetachCurrentThread();
+  return;
+}
+```
