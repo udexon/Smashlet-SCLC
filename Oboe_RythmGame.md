@@ -1,6 +1,6 @@
 https://github.com/google/oboe/blob/ec8de0feef6df0af28d8de1d85437e2b7620c92e/samples/RhythmGame/src/main/java/com/google/oboe/sample/rhythmgame/GameSurfaceView.java
 
-'''
+```
   @Override
     public boolean onTouchEvent(MotionEvent e) {
         // MotionEvent reports input details from the touch screen
@@ -12,10 +12,11 @@ https://github.com/google/oboe/blob/ec8de0feef6df0af28d8de1d85437e2b7620c92e/sam
         }
         return true;
     }
-'''
+```
 
 https://github.com/google/oboe/blob/06fd9bf1c37c23e89737588351f62e2acde34f73/samples/RhythmGame/src/main/cpp/native-lib.cpp
 
+```
 JNIEXPORT void JNICALL
 Java_com_google_oboe_sample_rhythmgame_GameSurfaceView_native_1onTouchInput(JNIEnv *env,
                                                                             jclass type,
@@ -25,3 +26,4 @@ Java_com_google_oboe_sample_rhythmgame_GameSurfaceView_native_1onTouchInput(JNIE
                                                                             jint pixel_y) {
     game->tap(time_since_boot_ms);
 }
+```
